@@ -62,6 +62,21 @@ This dataset, WAY-EEG-GAL (Wearable interfaces for hAnd function recoverY, a Eur
 - **Selection Criteria:** Right-handed individuals, 12 participants (8 females, aged 19-35)
 - **Ethics:** Informed consent obtained, study approved by the Ethical Committee at Umeå University
 
+## Usage
+
+### Pip Installs
+
+```python
+!pip install mne
+!pip install asrpy
+```
+### Instructions
+
+1. The code is recommended to run in [Google Colab](https://colab.google/)
+3. Download the EEG dataset from here: Grasp-and-Lift EEG Detection Data.
+4. Put the dataset and .ipynb files into the same folder.
+5. Change `FILE_PATH` to the relative path of the downloaded EEG dataset in Google Drive.
+
 ## Quality Evaluation
 
 ### Surveying and Analyzing Existing Literature
