@@ -78,15 +78,6 @@ This dataset, WAY-EEG-GAL (Wearable interfaces for hAnd function recoverY, a Eur
 4. Put the dataset and .ipynb files into the same folder.
 5. Change `FILE_PATH` to the relative path of the downloaded EEG dataset in Google Drive.
 
-### Analyzing the Hidden Independent Components within EEG Using ICA with ICLabel
-
-| EEG (32 channels, 1 dataset) | Bandpass filter | ASR | Brain | Muscle | Eye | Heart | Line | Channel noise | Other | 
-|-------------------------------|----------------|-----|-------|--------|-----|-------|------|---------------|-------|
-| Raw                           |                |     |    0  |    0   |   1 |   0   |   0  |      0       |    31   | 
-| Filtered                      | ✓              |    |    0  |    0   |  1 |    0  |    0 |       0        |    31   |   
-| ASR                           | ✓              | ✓   |   9   |    1   |  1  |   0   |  0  |        0       |   21  |  
-
-# README.md
 
 ## Introduction
 The primary aim of our final project is to design and implement an EEG data processing pipeline tailored for motor Brain-Computer Interface (BCI) applications. The Brain-Computer Interface (BCI) system and the WAY-EEG-GAL dataset are designed to investigate the neural dynamics of motor control during grasp and lift tasks. We utilize the dataset in neurorehabilitation, assistive technology, and scientific research, providing a valuable resource for studying the neural mechanisms of motor control and sensory-motor integration.
@@ -94,6 +85,14 @@ The primary aim of our final project is to design and implement an EEG data proc
 ## Model Framework
 
 <img src="https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/f35fd36a-900e-4c73-8291-08a69db5c1b8" width="700"/>
+
+### Analyzing the Hidden Independent Components within EEG Using ICA with ICLabel
+
+| EEG (32 channels, 1 dataset) | Bandpass filter | ASR | Brain | Muscle | Eye | Heart | Line | Channel noise | Other | 
+|-------------------------------|----------------|-----|-------|--------|-----|-------|------|---------------|-------|
+| Raw                           |                |     |    0  |    0   |   1 |   0   |   0  |      0       |    31   | 
+| Filtered                      | ✓              |    |    0  |    0   |  1 |    0  |    0 |       0        |    31   |   
+| ASR                           | ✓              | ✓   |   9   |    1   |  1  |   0   |  0  |        0       |   21  |  
 
 ### Raw
 
