@@ -144,6 +144,10 @@ Comparison of preprocessing methods on classifier performance:
 | Filtered + ICA + ASR*     | 40.40%| 42.38%|
 | Filtered + Auto-Reject    | 36.43%| 33.33%|
 
+
+### Confusion matrix
+
+
 ## References
 - [Reference 1]
 - [Reference 2]
