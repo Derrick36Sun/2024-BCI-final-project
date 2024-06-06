@@ -88,3 +88,45 @@ This dataset, WAY-EEG-GAL (Wearable interfaces for hAnd function recoverY, a Eur
 | 0                             | 0              | 1   | 0     | 0      | 0   | 31    |     |               |       |     |
 | Filtered                      | ✓              | 0   | 0     | 1      | 0   | 0     |     |               |       |     |
 | ASR                           | ✓              | ✓   | 9     | 1      | 1   | 0     | 0   |               | 21    |     |
+
+# README.md
+
+## Introduction
+The primary aim of our final project is to design and implement an EEG data processing pipeline tailored for motor Brain-Computer Interface (BCI) applications. The Brain-Computer Interface (BCI) system and the WAY-EEG-GAL dataset are designed to investigate the neural dynamics of motor control during grasp and lift tasks. We utilize the dataset in neurorehabilitation, assistive technology, and scientific research, providing a valuable resource for studying the neural mechanisms of motor control and sensory-motor integration.
+
+## Model Framework
+
+### Raw
+
+### Filtered
+
+### Raw Independent Component Analysis
+
+### Filtered Independent Component Analysis
+
+### Filtered ASR Independent Component Analysis
+
+### Autoreject Before (left) vs. After (right)
+
+## Validation
+To evaluate the trained classifier, we use cross-validation on the dataset to assess its performance in accurately classifying motor imagery tasks. We also analyze classification metrics such as accuracy, precision, recall, and F1-score to quantify the classifier's effectiveness.
+
+## Usage
+Describe the usage of their BCI model's code. Explain the required environment and dependencies needed to run the code. Describe any configurable options or parameters within the code. Provide instructions on how to execute the code.
+
+## Results
+Comparison of preprocessing methods on classifier performance:
+
+| Preprocessing Method      | SVM   | KNN   |
+|---------------------------|-------|-------|
+| Raw                       | X     | X     |
+| Filtered                  | 44.37%| 43.71%|
+| Filtered + ICA*           | 54.97%| 46.36%|
+| Filtered + ICA + ASR*     | 40.40%| 42.38%|
+| Filtered + Auto-Reject    | 36.43%| 33.33%|
+
+## References
+- [Reference 1]
+- [Reference 2]
+- [Reference 3]
+
