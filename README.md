@@ -78,25 +78,6 @@ This dataset, WAY-EEG-GAL (Wearable interfaces for hAnd function recoverY, a Eur
 4. Put the dataset and .ipynb files into the same folder.
 5. Change `FILE_PATH` to the relative path of the downloaded EEG dataset in Google Drive.
 
-## Quality Evaluation
-
-### Surveying and Analyzing Existing Literature
-
-1. **Established Protocols:**
-   - The experimental design involving grasp and lift tasks is well-documented in motor control and neurophysiological studies.
-   - Similar protocols have been used to investigate motor planning and execution, supporting the reliability of this study's design (e.g., Johansson & Westling, 1984).
-
-2. **Multimodal Sensory Activity:**
-   - The correct completion of the grasp and lift (GAL) task depends on multimodal sensory activity correlated with specific events such as object contact, lift-off, and replacement.
-   - This aligns with the Discrete Event Sensory Control (DESC) policy, where feedforward control routines operate between sensed discrete events (Johansson & Flanagan, 2009).
-
-3. **EEG Methodology:**
-   - The use of a 32-channel EEG system to capture neural dynamics is standard in neuroscience research.
-   - Literature supports the reliability of BrainAmp EEG signal amplifiers in high-resolution EEG studies (e.g., Debener et al., 2005).
-
-4. **Signal Processing:**
-   - The data preprocessing steps, including cross-correlation synchronization and mean removal from EMG signals, align with best practices in EEG data handling (e.g., Makeig et al., 2004).
-
 ### Analyzing the Hidden Independent Components within EEG Using ICA with ICLabel
 
 | EEG (32 channels, 1 dataset) | Bandpass filter | ASR | Brain | Muscle | Eye | Heart | Line | Channel noise | Other | 
@@ -164,6 +145,25 @@ Comparison of preprocessing methods on classifier performance:
 ### Confusion matrix
 
 <img src="https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/c7334489-f5c1-4160-896b-6b90aabe55e2" width="700"/>
+
+## Quality Evaluation
+
+### Surveying and Analyzing Existing Literature
+
+1. **Established Protocols:**
+   - The experimental design involving grasp and lift tasks is well-documented in motor control and neurophysiological studies.
+   - Similar protocols have been used to investigate motor planning and execution, supporting the reliability of this study's design (e.g., Johansson & Westling, 1984).
+
+2. **Multimodal Sensory Activity:**
+   - The correct completion of the grasp and lift (GAL) task depends on multimodal sensory activity correlated with specific events such as object contact, lift-off, and replacement.
+   - This aligns with the Discrete Event Sensory Control (DESC) policy, where feedforward control routines operate between sensed discrete events (Johansson & Flanagan, 2009).
+
+3. **EEG Methodology:**
+   - The use of a 32-channel EEG system to capture neural dynamics is standard in neuroscience research.
+   - Literature supports the reliability of BrainAmp EEG signal amplifiers in high-resolution EEG studies (e.g., Debener et al., 2005).
+
+4. **Signal Processing:**
+   - The data preprocessing steps, including cross-correlation synchronization and mean removal from EMG signals, align with best practices in EEG data handling (e.g., Makeig et al., 2004).
 
 
 ## References
