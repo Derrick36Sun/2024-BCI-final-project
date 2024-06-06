@@ -22,12 +22,13 @@ This dataset, WAY-EEG-GAL (Wearable interfaces for hAnd function recoverY, a Eur
 - **Participants:** Seated comfortably
 - **Instructions:** Follow LED cues
 - **Data Recorded:**
-  - **EEG, EMG, Kinematic and Force Data**
-  - **Procedure:**
-    - Reaching for the object upon the LED cue
-    - Grasping and lifting the object
-    - Holding the object stably
-    - Lowering and releasing the object upon the LED cue
+  - EEG, EMG, Kinematic and Force Data
+- **Procedure:** Participants were seated comfortably and instructed to follow the cues provided by the LED. EEG, EMG, and various kinematic and force data were recorded during the trials.The procedure involved:
+  -   Reaching for the object upon the LED cue.
+  -   Grasping and lifting the object.
+  -   Holding the object stably.
+  -   Lowering and releasing the object upon the LED cue.
+
 
 ### Hardware and Software Used
 - **EEG Hardware:** BrainAmp EEG signal amplifier and EEG cap
