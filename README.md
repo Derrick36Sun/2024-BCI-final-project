@@ -96,49 +96,36 @@ The primary aim of our final project is to design and implement an EEG data proc
 
 ## Model Framework
 
-![image](https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/f35fd36a-900e-4c73-8291-08a69db5c1b8)
-
+<img src="https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/f35fd36a-900e-4c73-8291-08a69db5c1b8" width="500"/>
 
 ### Raw
 
-![image](https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/91a7723f-1fe9-41be-9149-12c16d02e0f1)
-
+<img src="https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/91a7723f-1fe9-41be-9149-12c16d02e0f1" width="500"/>
 
 ### Filtered
 
-![image](https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/8fe551a6-3b51-43d0-ba1a-b4e0abff9323)
-
+<img src="https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/8fe551a6-3b51-43d0-ba1a-b4e0abff9323" width="500"/>
 
 ### Raw Independent Component Analysis
 
-![image](https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/11b51fdc-5f77-411e-8e17-afcd6164a5c1)
-![image](https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/e65b67fb-af2f-48e2-a6fb-64b5f747f9ed)
-
-
+<img src="https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/11b51fdc-5f77-411e-8e17-afcd6164a5c1" width="500"/>
+<img src="https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/e65b67fb-af2f-48e2-a6fb-64b5f747f9ed" width="500"/>
 
 ### Filtered Independent Component Analysis
 
-![image](https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/16ff1c27-89bf-4e32-be7e-2c9a12b797fb)
-![image](https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/fa4ffc2e-5aeb-4a29-a6b2-b7cdb47e636b)
-![image](https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/6e9e56e2-5b89-4718-b315-a0bf58c7a5f1)
-
-
-
+<img src="https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/16ff1c27-89bf-4e32-be7e-2c9a12b797fb" width="500"/>
+<img src="https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/fa4ffc2e-5aeb-4a29-a6b2-b7cdb47e636b" width="500"/>
+<img src="https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/6e9e56e2-5b89-4718-b315-a0bf58c7a5f1" width="500"/>
 
 ### Filtered ASR Independent Component Analysis
 
-![image](https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/f0c81691-f1cb-44aa-82d9-a7c5fadb824c)
-![image](https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/7ab83108-6572-41fc-b4fb-0f149abf1b8b)
-![image](https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/d257852f-e7f1-4f8e-9034-347f5dfcdb46)
-
-
-
+<img src="https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/f0c81691-f1cb-44aa-82d9-a7c5fadb824c" width="500"/>
+<img src="https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/7ab83108-6572-41fc-b4fb-0f149abf1b8b" width="500"/>
+<img src="https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/d257852f-e7f1-4f8e-9034-347f5dfcdb46" width="500"/>
 
 ### Autoreject Before (Top) vs. After (Bottom)
-![image](https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/4b3de60c-862b-4c3c-b80c-7bf03fe2379e)
-![image](https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/3a02a9e8-2b10-4bd2-9dd0-0452638c60c4)
-
-
+<img src="https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/4b3de60c-862b-4c3c-b80c-7bf03fe2379e" width="500"/>
+<img src="https://github.com/Derrick36Sun/2024-BCI-final-project/assets/68135531/3a02a9e8-2b10-4bd2-9dd0-0452638c60c4" width="500"/>
 
 ## Validation
 To evaluate the trained classifier, we use cross-validation on the dataset to assess its performance in accurately classifying motor imagery tasks. We also analyze classification metrics such as accuracy, precision, recall, and F1-score to quantify the classifier's effectiveness.
@@ -161,4 +148,3 @@ Comparison of preprocessing methods on classifier performance:
 - [Reference 1]
 - [Reference 2]
 - [Reference 3]
-
