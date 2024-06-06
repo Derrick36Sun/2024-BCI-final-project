@@ -151,6 +151,24 @@ Comparison of preprocessing methods on classifier performance:
 
 
 ## References
-- [Reference 1]
-- [Reference 2]
-- [Reference 3]
+
+1. Luciw, M., Jarocka, E., & Edin, B. (2014). Multi-channel EEG recordings during 3,936 grasp and lift trials with varying weight and friction. Scientific Data, 1, 140047. https://doi.org/10.1038/sdata.2014.47
+
+1. Liao, L. D., Chen, C. Y., Wang, I. J., et al. (2012). Gaming control using a wearable and wireless EEG-based brain-computer interface device with novel dry foam-based sensors. *Journal of NeuroEngineering and Rehabilitation, 9*(1), 5. https://doi.org/10.1186/1743-0003-9-5
+
+2. McFarland, D. J., Daly, J., Boulay, C., & Parvaz, M. (2017). Therapeutic applications of BCI technologies. *Brain-Computer Interfaces, 47*(1-2), 37-52. https://doi.org/10.1080/2326263X.2017.1307625
+
+3. Stokes, M., & James, C. J. (2006). Brain-computer interfacing (BCI) in rehabilitation. *Clinical Neurophysiology, 117*(Supplement 1), 28. https://doi.org/10.1016/j.clinph.2006.07.077
+
+4. Tarafdar, K. K., Pradhan, B. K., Nayak, S. K., Khasnobish, A., Bhattacharyya, S., & Pal, K. (2019). Electroencephalogram-based brain–computer interface systems for controlling rehabilitative devices. *Bioelectronics and Medical Devices.*
+
+5. Vasiljevic, G. A., & Miranda, L. C. (2020). A general model for electroencephalography-controlled brain-computer interface games. In *Computational Science and Its Applications – ICCSA 2020* (pp. 174-189).
+
+6. Foong, R., Ang, K. K., Quek, C., et al. (2020). Assessment of the efficacy of EEG-based MI-BCI with visual feedback and EEG correlates of mental fatigue for upper-limb stroke rehabilitation. *IEEE Transactions on Biomedical Engineering, 67*(3), 786-795. https://doi.org/10.1109/TBME.2019.2921198
+
+7. Quiles, E., Suay, F., Candela, G., Chio, N., Jiménez, M., & Álvarez-Kurogi, L. (2020). Low-cost robotic guide based on a motor imagery brain-computer interface for arm assisted rehabilitation. *International Journal of Environmental Research and Public Health, 17*(3), 699. https://doi.org/10.3390/ijerph17030699
+
+8. Tong, Y., Pendy, J. T., Jr, Li, W. A., et al. (2017). Motor imagery-based rehabilitation: Potential neural correlates and clinical application for functional recovery of motor deficits after stroke. *Aging and Disease, 8*(3), 364-371. https://doi.org/10.14336/AD.2016.1012
+
+9. Gustavsson, M., Kjörk, E. K., Erhardsson, M., & Alt Murphy, M. (2022). Virtual reality gaming in rehabilitation after stroke - user experiences and perceptions. *Disability and Rehabilitation, 44*(22), 6759-6765. https://doi.org/10.1080/09638288.2021.1972351
+
